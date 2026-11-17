@@ -1,14 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/sections/HeroSection";
+import StatsSection from "@/components/sections/StatsSection";
+import ServicesSection from "@/components/sections/ServicesSection";
+import AboutSection from "@/components/sections/AboutSection";
+import PricingSection from "@/components/sections/PricingSection";
+import TeamSection from "@/components/sections/TeamSection";
+import GallerySection from "@/components/sections/GallerySection";
+import BookingSection from "@/components/sections/BookingSection";
+import ReviewsSection from "@/components/sections/ReviewsSection";
+import FaqSection from "@/components/sections/FaqSection";
+import ContactsSection from "@/components/sections/ContactsSection";
+import CtaSection from "@/components/sections/CtaSection";
 
-const Index = () => {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <>
+    <HeroSection />
+    <StatsSection />
+    <ServicesSection />
+    <AboutSection />
+    <PricingSection />
+    <TeamSection />
+    <GallerySection />
+    <BookingSection />
+    <ReviewsSection />
+    <FaqSection />
+    <CtaSection />
+    <ContactsSection />
+  </>
+);
 
 export default Index;

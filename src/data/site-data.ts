@@ -1,0 +1,138 @@
+export const siteData = {
+  clinic: {
+    name: "ВетЛапка",
+    tagline: "Ветеринарная клиника и салон груминга",
+    phone: "+7 (495) 123-45-67",
+    email: "info@vetlapka.ru",
+    address: "г. Москва, ул. Пушкина, д. 15",
+    workHours: "Пн–Вс: 08:00 – 21:00",
+    social: {
+      instagram: "#",
+      telegram: "#",
+      vk: "#",
+    },
+  },
+
+  images: {
+    heroDog: "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=1600&q=80",
+    heroCat: "https://images.unsplash.com/photo-1514888286974-6c03e1caaa04?w=1600&q=80",
+    clinicInterior: "https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?w=1600&q=80",
+    grooming1: "https://images.unsplash.com/photo-1591946614720-90b589801f93?w=800&q=80",
+    grooming2: "https://images.unsplash.com/photo-1450108940-1522-8f31d9e9f9ce?w=800&q=80",
+    grooming3: "https://images.unsplash.com/photo-1583511655802-27e3d5d8b15f?w=800&q=80",
+    grooming4: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+    grooming5: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=800&q=80",
+    grooming6: "https://images.unsplash.com/photo-1518717758536-854a84bd939c?w=800&q=80",
+    vetCheckup: "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+    vetSurgery: "https://images.unsplash.com/photo-1582750433449-793f55e23c6f?w=800&q=80",
+    vetVaccine: "https://images.unsplash.com/photo-1612531386530-9723d3ef4c2a?w=800&q=80",
+    vetDental: "https://images.unsplash.com/photo-1579154202947-67c8c2b1f3a6?w=800&q=80",
+    pet1: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    pet2: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=80",
+    pet3: "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=800&q=80",
+    pet4: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=800&q=80",
+    pet5: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    pet6: "https://images.unsplash.com/photo-1591160690555-5debfba289f0?w=800&q=80",
+    pet7: "https://images.unsplash.com/photo-1530281700549-e82e7b110d6e?w=800&q=80",
+    pet8: "https://images.unsplash.com/photo-1425081666299-1907d4e1c6c1?w=800&q=80",
+    gallery1: "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=800&q=80",
+    gallery2: "https://images.unsplash.com/photo-1514888286974-6c03e1caaa04?w=800&q=80",
+    gallery3: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    gallery4: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=80",
+    gallery5: "https://images.unsplash.com/photo-1583511655802-27e3d5d8b15f?w=800&q=80",
+    gallery6: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+    gallery7: "https://images.unsplash.com/photo-1591946614720-90b589801f93?w=800&q=80",
+    gallery8: "https://images.unsplash.com/photo-1518717758536-854a84bd939c?w=800&q=80",
+  },
+
+  services: [
+    { icon: "Stethoscope", title: "Терапия и осмотр", desc: "Комплексный осмотр, диагностика и лечение заболеваний любой сложности.", price: "от 1 500 ₽" },
+    { icon: "Scissors", title: "Груминг", desc: "Стрижка, мытьё, сушка и уход за шерстью для собак и кошек всех пород.", price: "от 2 000 ₽" },
+    { icon: "Syringe", title: "Вакцинация", desc: "Прививки от бешенства и инфекционных заболеваний по графику.", price: "от 800 ₽" },
+    { icon: "Microscope", title: "Лаборатория", desc: "Анализы крови, мочи, кала и других биоматериалов за 1 день.", price: "от 500 ₽" },
+    { icon: "Bone", title: "Хирургия", desc: "Плановые и экстренные операции с современным оборудованием.", price: "от 5 000 ₽" },
+    { icon: "Sparkles", title: "Стоматология", desc: "Чистка, лечение и удаление зубов под наркозом с мониторингом.", price: "от 2 500 ₽" },
+  ] as { icon: string; title: string; desc: string; price: string }[],
+
+  team: [
+    { name: "Иванова Анна Петровна", role: "Главный ветеринар", spec: "Терапия, кардиология", exp: "15 лет опыта", avatar: "https://images.unsplash.com/photo-1559839734-d2c7d2b8c5a3?w=400&q=80" },
+    { name: "Петров Сергей Игоревич", role: "Ветеринар-хирург", spec: "Хирургия, ортопедия", exp: "12 лет опыта", avatar: "https://images.unsplash.com/photo-1612531386530-9723d3ef4c2a?w=400&q=80" },
+    { name: "Смирнова Ольга Николаевна", role: "Грумер-стилист", spec: "Все виды стрижек", exp: "8 лет опыта", avatar: "https://images.unsplash.com/photo-1559839734-d2c7d2b8c5a3?w=400&q=80" },
+    { name: "Козлов Дмитрий Александрович", role: "Ветеринар-стоматолог", spec: "Стоматология, рентген", exp: "10 лет опыта", avatar: "https://images.unsplash.com/photo-1612531386530-9723d3ef4c2a?w=400&q=80" },
+  ] as { name: string; role: string; spec: string; exp: string; avatar: string }[],
+
+  stats: [
+    { label: "Счастливых пациентов", value: "12 000+" },
+    { label: "Лет на службе", value: "15" },
+    { label: "Врачей в команде", value: "8" },
+    { label: "Операций в год", value: "500+" },
+  ] as { label: string; value: string }[],
+
+  pricing: {
+    veterinary: [
+      { name: "Первичный приём", price: "1 500 ₽", duration: "30 мин" },
+      { name: "Повторный приём", price: "1 000 ₽", duration: "20 мин" },
+      { name: "Вызов на дом", price: "3 000 ₽", duration: "60 мин" },
+      { name: "Общий анализ крови", price: "700 ₽", duration: "1 день" },
+      { name: "УЗИ брюшной полости", price: "2 500 ₽", duration: "40 мин" },
+      { name: "Рентген", price: "2 000 ₽", duration: "30 мин" },
+      { name: "Вакцинация (бешенство)", price: "800 ₽", duration: "15 мин" },
+      { name: "Кастрация (кошка)", price: "5 000 ₽", duration: "1 час" },
+      { name: "Стерилизация (собака)", price: "8 000 ₽", duration: "1.5 часа" },
+    ] as { name: string; price: string; duration: string }[],
+    grooming: [
+      { name: "Гигиеническая стрижка", price: "2 000 ₽", duration: "1 час" },
+      { name: "Модельная стрижка", price: "3 500 ₽", duration: "2 часа" },
+      { name: "Мытьё и сушка", price: "1 200 ₽", duration: "40 мин" },
+      { name: "Стрижка когтей", price: "500 ₽", duration: "15 мин" },
+      { name: "Чистка ушей", price: "400 ₽", duration: "15 мин" },
+      { name: "Комплексный уход", price: "5 000 ₽", duration: "3 часа" },
+      { name: "Выставочный груминг", price: "7 000 ₽", duration: "4 часа" },
+      { name: "Окрашивание", price: "4 500 ₽", duration: "2.5 часа" },
+      { name: "СПА для питомца", price: "3 000 ₽", duration: "1.5 часа" },
+    ] as { name: string; price: string; duration: string }[],
+  },
+
+  reviews: [
+    { name: "Мария К.", pet: "Кошка Муся", rating: 5, text: "Замечательная клиника! Муся больше не боится ездить к ветеринару. Врачи очень внимательные и ласковые.", date: "15.10.2026" },
+    { name: "Алексей В.", pet: "Пёс Рекс", rating: 5, text: "Сделали стрижку Рексу — выглядит как с выставки! Грумер Ольга — настоящий профессионал.", date: "10.10.2026" },
+    { name: "Екатерина С.", pet: "Собака Бакс", rating: 5, text: "Спасибо за экстренную операцию! Бакс быстро пошёл на поправку. Цены адекватные, врачи золотые.", date: "02.10.2026" },
+    { name: "Дмитрий П.", pet: "Кот Барсик", rating: 4, text: "Хорошая клиника, но пришлось подождать приёма минут 15. В целом — всё отлично, Барсику поставили прививки.", date: "28.09.2026" },
+    { name: "Ольга Н.", pet: "Собака Лайма", rating: 5, text: "Регулярно ходим на груминг. Лайма всегда выходит счастливая и красивая. Рекомендую всем!", date: "20.09.2026" },
+    { name: "Сергей М.", pet: "Кот Симба", rating: 5, text: "Стоматолог Дмитрий спас Симбе зуб. Очень профессионально и заботливо. Спасибо всей команде!", date: "15.09.2026" },
+  ] as { name: string; pet: string; rating: number; text: string; date: string }[],
+
+  faq: [
+    { q: "Как записаться на приём?", a: "Вы можете записаться через форму бронирования на этой странице, по телефону +7 (495) 123-45-67 или лично в клинике. Мы рекомендуем заранее выбирать удобный слот времени." },
+    { q: "Нужна ли предварительная подготовка к приёму?", a: "Для общего осмотра — нет. Для сдачи анализов крови рекомендуется не кормить питомца 8–12 часов. Для хирургических процедур — голодание 12 часов, ограничение воды за 2 часа." },
+    { q: "Вы принимаете экстренные случаи?", a: "Да, мы работаем без выходных с 8:00 до 21:00 и принимаем экстренные случаи вне очереди. При критических ситуациях звоните на горячую линию." },
+    { q: "Какие породы вы стрижёте?", a: "Наши грумеры работают со всеми породами собак и кошек — от йорков и пуделей до крупных пород. Также выполняем выставочные стрижки по стандартам породы." },
+    { q: "Делаете ли вы вызов на дом?", a: "Да, мы предоставляем услугу вызова ветеринара на дом по Москве и ближайшему Подмосковью. Стоимость — от 3 000 ₽, зависит от района." },
+    { q: "Можно ли присутствовать при осмотре?", a: "Конечно! Мы приветствуем присутствие хозяина — это снижает стресс у питомца. Исключение — некоторые хирургические процедуры." },
+  ] as { q: string; a: string }[],
+
+  gallery: [
+    "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=800&q=80",
+    "https://images.unsplash.com/photo-1514888286974-6c03e1caaa04?w=800&q=80",
+    "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80",
+    "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=80",
+    "https://images.unsplash.com/photo-1583511655802-27e3d5d8b15f?w=800&q=80",
+    "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+    "https://images.unsplash.com/photo-1591946614720-90b589801f93?w=800&q=80",
+    "https://images.unsplash.com/photo-1518717758536-854a84bd939c?w=800&q=80",
+  ],
+
+  timeSlots: [
+    "08:00", "09:00", "10:00", "11:00", "12:00",
+    "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00",
+  ],
+
+  serviceTypes: [
+    { value: "therapy", label: "Терапия и осмотр" },
+    { value: "grooming", label: "Груминг" },
+    { value: "vaccine", label: "Вакцинация" },
+    { value: "surgery", label: "Хирургия" },
+    { value: "dental", label: "Стоматология" },
+    { value: "lab", label: "Лаборатория" },
+  ] as { value: string; label: string }[],
+};
